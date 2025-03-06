@@ -1,0 +1,7 @@
+<h2>Class Schedule</h2>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.ClassName - @item.Instructor (@item.Schedule)</li>
+    }
+</ul>

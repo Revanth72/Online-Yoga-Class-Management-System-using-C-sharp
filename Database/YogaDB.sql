@@ -1,0 +1,23 @@
+CREATE DATABASE YogaDB;
+USE YogaDB;
+
+CREATE TABLE Users (
+    UserId INT PRIMARY KEY IDENTITY(1,1),
+    FullName NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100) UNIQUE NOT NULL,
+    Password NVARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Classes (
+    ClassId INT PRIMARY KEY IDENTITY(1,1),
+    ClassName NVARCHAR(100) NOT NULL,
+    Instructor NVARCHAR(100),
+    Schedule DATETIME
+);
+
+CREATE TABLE Bookings (
+    BookingId INT PRIMARY KEY IDENTITY(1,1),
+    UserId INT FOREIGN KEY REFERENCES Users(UserId),
+    ClassId INT FOREIGN KEY REFERENCES Classes(ClassId),
+    BookingDate DATETIME
+);
