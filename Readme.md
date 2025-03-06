@@ -105,7 +105,7 @@ CREATE TABLE Bookings (
 ---
 
 ## Contributing  
-💡 Want to improve this project? Feel free to contribute!  
+💡 Want to improving this project? Feel free to contribute!  
 1. Fork the repository  
 2. Create a new branch (`feature-new-functionality`)  
 3. Commit your changes (`git commit -m "Added new feature"`)  
