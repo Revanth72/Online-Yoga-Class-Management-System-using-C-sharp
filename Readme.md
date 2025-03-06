@@ -1,4 +1,4 @@
-## **Yoga Class Management System**  
+## Yoga Class Management System  
 *A web-based platform for managing online yoga classes.*  
 
 ### **Table of Contents**  
@@ -14,12 +14,12 @@
 
 ---
 
-## **Introduction**  
+## Introduction  
 The **Yoga Class Management System** is a web-based application that allows users to register, log in, and book yoga classes online. Instructors can manage class schedules, while users can view available classes and make bookings.
 
 ---
 
-## **Features**  
+## Features  
 ✅ User registration and authentication  
 ✅ Class scheduling and management  
 ✅ Booking system for yoga classes  
@@ -29,7 +29,7 @@ The **Yoga Class Management System** is a web-based application that allows user
 
 ---
 
-## **Technologies Used**  
+## Technologies Used  
 - **Frontend:** HTML, CSS, jQuery  
 - **Backend:** C#, ASP.NET Core MVC  
 - **Database:** MS SQL Server  
@@ -37,26 +37,26 @@ The **Yoga Class Management System** is a web-based application that allows user
 
 ---
 
-## **Installation**  
+## Installation  
 
-### **1. Clone the Repository**  
+### 1. Clone the Repository 
 ```bash
 git clone https://github.com/Revanth72/Online-Yoga-Class-Management-System-using-C-sharp.git
 cd Online-Yoga-Class-Management-System-using-C-sharp
 ```
 
-### **2. Setup Database**  
+### 2. Setup Database  
 - Open **SQL Server Management Studio (SSMS)**  
 - Run the script in `Database/YogaDB.sql` to create tables  
 
-### **3. Run the Application**  
+### 3. Run the Application  
 - Open **Visual Studio 2019**  
 - Load `YogaClassManagement.sln`  
 - Press `F5` to start the application  
 
 ---
 
-## **Database Setup**  
+## Database Setup  
 Use the following SQL script to create the database:  
 
 ```sql
@@ -87,7 +87,7 @@ CREATE TABLE Bookings (
 
 ---
 
-## **Usage**  
+## Usage  
 1. **User Registration & Login**  
    - New users can register and log in  
 2. **View Class Schedule**  
